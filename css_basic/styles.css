@@ -28,4 +28,16 @@ aside {
         flex-direction: column;
     }
     }
-     
+     p {
+        color: blue;
+     }
+     h1 {
+        color: blueviolet;
+     }
+     h2 {
+        color: brown;
+     }
+     li {
+        list-style-type: circle;
+        color: rgb(176, 127, 255);
+     }
