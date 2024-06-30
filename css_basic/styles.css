@@ -23,4 +23,9 @@ aside {
     flex: 1; /* <aside> takes 1/3 of the width */
     overflow-y: auto; /* Allow scrolling within <aside> */
 }
-
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    }
+     
