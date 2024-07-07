@@ -310,3 +310,30 @@ header nav li a:hover {
     margin-bottom: 1.25em;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    background-color: var(--blueblack-color);
+}
+
+.footer p {
+    text-align: center;
+    color: var(--white-color);
+    margin: 3em 0;
+}
+
+.log-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3em 0;
+}
+
+
+.fa-brands {
+    font-size: 1.25em;
+    margin: 0 0.625em;
+    color: var(--white-color);
+}
