@@ -1,0 +1,124 @@
+:root {
+    --primary-color: #C271FF;
+    --blueblack-color: #071629;
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-text-color: #07162981;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.header-container {
+    background-image: url("./Object.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav li a{
+    color: var(--white-color);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav li a:hover {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--white-color);
+}
+
+.int-textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.int-textarea h1 {
+    font-size: 120px;
+    color: var(--white-color);
+}
+
+.span-class {
+    display: flex;
+    flex-direction: row;
+}
+
+.span-class span {    
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white-color);
+    margin: 0 20px;
+}
+
+.int-textarea button {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.achievements {
+    margin-top: 100px;
+}
+
+.achievements h2{
+    font-size: 32px;
+    color: var(--white-color);
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.achievers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bruce {
+    border-radius: 50%;
+}
+
+.achievers div {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.achievers h3, .achievers p {
+    color: var(--white-color);
+}
+
+.achievers p {
+    font-style: italic;
+    font-size: 14px;
+}
+
