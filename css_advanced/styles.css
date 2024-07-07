@@ -278,3 +278,35 @@ header nav li a:hover {
 .memberships p {
     line-height: 2;
 }
+
+.faq {
+    padding: 3.75em 0;
+}
+
+.faq h2 {
+    font-weight: 300;
+    font-size: 3.75em;
+    text-align: center;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-child {
+    margin: 2em 5em;
+}
+
+
+.grid-text {
+    width: 350px;
+}
+
+.head {
+    margin-top: 5em;
+    margin-bottom: 1.25em;
+}
+
