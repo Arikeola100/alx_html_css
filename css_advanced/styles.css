@@ -122,3 +122,27 @@ header nav li a:hover {
     font-size: 14px;
 }
 
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 100px;
+}
+
+.text-part {
+    color: var(--white-color);
+    margin-left: 40px;
+    width: 730px;
+}
+
+.text-part blockquote {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.text-part p {
+    font-size: 22px;
+    font-style: italic;
+}
