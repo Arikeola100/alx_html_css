@@ -146,3 +146,73 @@ header nav li a:hover {
     font-size: 22px;
     font-style: italic;
 }
+
+
+/* TUTORIAL SECTION OF THE WEBSITE */
+
+.tutorials {
+    margin-bottom: 5em;
+}
+
+.tutorials h2 {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2.5em;
+    color: var(--blueblack-color);
+}
+
+.tutorials h2 span {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.actual-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn {
+    position: relative;
+    top: 7em;
+    left: 5.5em;
+}
+
+.container-tutorial {
+    width: 255px;
+    text-align: left;
+    margin: 0 2em;
+}
+
+.actual-area div h3 {
+    margin: 0.625em 0;
+}
+
+.actual-area p{
+    color: var(--gray-text-color);
+    margin-bottom: 0.625em;
+}
+
+.phillip {
+    width: 12%;
+}
+
+.identity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.identity h4 {
+    margin: 0 0.625em;
+    color: var(--primary-color);
+}
+
+.rate-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
